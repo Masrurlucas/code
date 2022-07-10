@@ -1,24 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_div_mod.c                              :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lrossiny <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mapellet <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/10 10:41:40 by lrossiny          #+#    #+#             */
-/*   Updated: 2022/07/10 10:41:51 by lrossiny         ###   ########.fr       */
+/*   Created: 2022/07/09 14:26:37 by mapellet          #+#    #+#             */
+/*   Updated: 2022/07/10 10:23:00 by dsydelny         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+void	rush(int x, int y);
 
-void	ft_ultimate_div_mod(int *a, int *b)
+int	main(void)
 {
-	int	*div;
-	int	*mod;
-
-	*div = *a / *b;
-	*mod = *a % *b;
-	*a = *div;
-	*b = *mod;
+	rush(10, 10);
+	return (0);
 }
